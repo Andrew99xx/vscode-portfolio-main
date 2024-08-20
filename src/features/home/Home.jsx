@@ -5,7 +5,7 @@ function Home() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Manav Shete | Home</title>
+        <title>Indranil Chakraborty | Home</title>
       </Helmet>
 
       <div className="relative  flex  min-h-[75svh]  items-center overflow-hidden ">
@@ -16,11 +16,11 @@ function Home() {
         <div className="relative z-20 flex flex-col items-center gap-y-10 p-4 md:w-full md:flex-row md:items-center md:justify-between md:px-28">
           <div>
             <h2 className="text-3xl font-bold text-[#eee] md:text-5xl  xl:text-8xl">
-              Manav Shete
+              Indranil Chakraborty
             </h2>
             <div className=" typewriter w-max">
               <h2 className="text-xl font-bold text-[#eee] md:text-3xl ">
-                Front End Web Developer
+               Full Stack Developer
               </h2>
             </div>
             <Link to={`${"/projects"}`}>

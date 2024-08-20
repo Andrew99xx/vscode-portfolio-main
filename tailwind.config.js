@@ -6,6 +6,8 @@ export default {
     extend: {
       fontFamily: {
         Inconsolata: ["Inconsolata", "monospace"],
+        cascadia: ["cascadia", "monospace"],
+
       },
     },
   },
@@ -14,7 +16,7 @@ export default {
       github: {
         mainBg: "#24292e",
         bgText: "rgba(56, 58, 61, 0.35)",
-        textColor: "#efefef",
+        textColor: "#569CD6",
         accentColor: "#f9826c",
         titlebarBg: "#1f2428",
         sidebarBg: "#24292e",
@@ -134,8 +136,11 @@ export default {
       nightOwl: {
         mainBg: "#011627",
         bgText: "#031d33",
-        textColor: "#89a4bb",
+        textColor: "#569CD6",
         accentColor: "rgb(95, 126, 151)",
+        jsonText: "#ECC48DFF",
+        commented:'#6A9955',
+        cssValue:"#F78C6C",
         titlebarBg: "#011627",
         sidebarBg: "#011627",
         sidebarHoverBg: "#0e293f",

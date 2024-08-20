@@ -33,29 +33,29 @@ href:"https://www.dev.to"
   ];
   return (
     <div className="line-container flex flex-col">
-      <p className="  text-3xl text-textColor">Reach Out Via Socials </p>
+      <p className="  text-3xl text-commented">//Reach Out Via Socials </p>
       <div className="flex flex-col space-y-2 pt-5">
-        <p className="line text-base text-textColor md:text-2xl">
+        <p className="line text-base text-jsonText md:text-2xl">
           .socials &#123;{" "}
         </p>
         {socials.map((social) => {
           return (
             <div className="  line text-base md:text-2xl" key={social.social}>
               <span className="pl-5 text-textColor md:pl-8">
-                {social.social}:
+                "{social.social}":
               </span>
               <a
-                className=" pl-2 text-base text-accentColor hover:underline md:text-2xl"
+                className=" pl-2 text-base text-cssValue hover:underline md:text-2xl"
                 href={social.href}
                 target="_blank"
                 rel="noreferrer"
               >
-                {social.un};
+                "{social.un}"";
               </a>
             </div>
           );
         })}
-        <p className="line text-base text-textColor md:text-2xl">&#125;</p>
+        <p className="line text-base text-jsonText md:text-2xl">&#125;</p>
       </div>
     </div>
   );

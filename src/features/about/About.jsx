@@ -1,24 +1,34 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import react_icon from "../../assets/icons/react_icon.svg";
-import html_icon from "../../assets/icons/html_icon.svg";
-import css_icon from "../../assets/icons/css_icon.svg";
+import react_native from "../../assets/icons/rn.svg";
+import terra from "../../assets/icons/terra.svg";
 import js_icon from "../../assets/icons/js_icon.svg";
-import tailwind_icon from "../../assets/icons/tw-icon.svg";
-import python_icon from "../../assets/icons/python-5.svg";
+import next_icon from "../../assets/icons/next.svg"
+import java_icon from "../../assets/icons/java.svg";
+import spring_icon from "../../assets/icons/spring.svg";
+import aws from "../../assets/icons/aws.svg";
+import nest from "../../assets/icons/nest.svg";
+
+
 function About() {
   const techStack = [
-    html_icon,
-    css_icon,
+    // html_icon,
+    // css_icon,
     js_icon,
     react_icon,
-    tailwind_icon,
-    python_icon,
+    next_icon,
+    java_icon,
+    spring_icon,
+    terra,
+    react_native,
+    aws,
+    nest
   ];
 
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Manav Shete | About</title>
+        <title>Indranil Chakrabrty | About</title>
       </Helmet>
       <div className=" flex flex-col  items-center justify-center gap-y-4 p-8 text-textColor xl:gap-y-8 ">
         <div className="flex flex-col items-center gap-x-48 xl:flex-row">
@@ -27,11 +37,11 @@ function About() {
           </div>
           <div>
             <h1 className="text-center text-3xl font-extrabold text-white xl:text-start xl:text-6xl">
-              Front-End <br /> React Developer
+              Fullstack <br /> Developer
             </h1>
             <h2 className="text-xl max-sm:hidden">
-              Hi, I'm Manav Shete. A passionate Front-end React Developer <br />{" "}
-              based in Mumbai,India. 📍
+              Hi, I'm Indranil. An always learning Fullstack Developer <br />{" "}
+              based in Kolkata,India. 📍
             </h2>
           </div>
         </div>
@@ -42,9 +52,9 @@ function About() {
             </h2>
             <p className="text-lg font-medium leading-tight text-slate-400 xl:text-xl">
               As a Junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React and Tailwind. I excel in
-              designing and maintaining responsive websites that offer a smooth
-              user experience. I am also a team player who thrives in
+              of skills in Java, Spring Boot, React, Next, Nest, Node, AWS services and terraform. I excel in
+              designing and maintaining responsive websites with proper backend validation that offer a smooth
+              user experience . I am also a team player who thrives in
               collaborating with cross-functional teams to produce outstanding
               web applications.
             </p>
