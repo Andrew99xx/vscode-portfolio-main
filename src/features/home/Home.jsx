@@ -16,7 +16,7 @@ function Home() {
         <div className="relative z-20 flex flex-col items-center gap-y-10 p-4 md:w-full md:flex-row md:items-center md:justify-between md:px-28">
           <div>
             <h2 className="text-3xl font-bold text-[#eee] md:text-5xl  xl:text-8xl">
-              Indranil Chakraborty
+              INDRANIL CHAKRABORTY
             </h2>
             <div className=" typewriter w-max">
               <h2 className="text-xl font-bold text-[#eee] md:text-3xl ">
